@@ -1,0 +1,7 @@
+print("\nTablas de verdad")
+print("and:")
+print("A    B      A and B")
+print("True  Treue", True and True)
+print("True  False", True and False)
+print("False Treue", False and True)
+print("True  False", False and False)
