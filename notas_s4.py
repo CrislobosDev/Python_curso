@@ -1,4 +1,4 @@
-# Lista de anotaciones
+# Aplicacion de toma de notas
 class Nota:
     def __init__(self, titulo, nota):
         self.titulo = titulo
