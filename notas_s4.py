@@ -1,6 +1,4 @@
 # Lista de anotaciones
-
-
 class Nota:
     def __init__(self, titulo, nota):
         self.titulo = titulo
@@ -25,7 +23,7 @@ class Libreta:
                 print(f"Eliminado: {titulo}")
                 return
 
-            print("Nota no encontrada")
+        print("Nota no encontrada")
 
     def mostrar_notas(self):
         if self.notas:
